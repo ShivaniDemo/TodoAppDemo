@@ -1,12 +1,12 @@
 {
-  "name": "node-hello",
+  "name": "my-spa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A sample Node.js SPA for Azure",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
